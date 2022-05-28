@@ -5,7 +5,9 @@ const editFormHandler = async function(event) {
     
     const titleEl = document.getElementById('post-title');
     const bodyEl = document.getElementById('post-body');
-    const postId = document.getElementById('post-id')
+    const postId = document.getElementById('post-id').value;
+    
+    // const postId = document.querySelector('input[name="post-id"]').value;
 
     fetch("/api/post/" + postId.value, {
         method: "put", 
@@ -21,4 +23,13 @@ const editFormHandler = async function(event) {
         .catch(err => console.log(err))
 }
 
-document.querySelector("#edit-post-form").addEventListener("submit", editFormHandler);
+document.querySelector("#post-form").addEventListener("submit", editFormHandler);
+
+const deletePostHandler = async function() {
+    await fetch(`/api/post/${postId}`, {
+        method: "DELETE"
+    })
+    document.location.replace("/dashboard");
+}
+
+document.querySelector("#delete-btn").addEventListener("click", deletePostHandler);
