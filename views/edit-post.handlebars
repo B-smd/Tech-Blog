@@ -5,11 +5,12 @@
     <form class="card-body" id="post-form">
         <input type="hidden" id="post-id" value="{{post.id}}"/>
 
-        <label class="form-label" for="post-title">Title</label> 
+        <label class="form-label" name="post-title" for="post-title">Title</label> 
         <input class="form-input" type="text" id="post-title" value="{{post.title}}"/>
 
         <label class="form-label" for="post-body">Content</label> 
-        <textarea class="form-input" id="post-body">{{post.content}}</textarea>
+        <textarea class="form-input" id="post-body" value="{{post.content}}">{{post.content}}"</textarea>
+
 
         <button class="btn" type="submit">Update</button> 
 
