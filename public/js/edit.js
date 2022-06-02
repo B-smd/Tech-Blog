@@ -12,7 +12,7 @@ const editFormHandler = async function(event) {
         method: "PUT", 
         body: JSON.stringify({
             title,
-            body,
+            content: body,
         }),
         headers: { "Content-Type": "application/json"}
     })

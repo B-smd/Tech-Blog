@@ -65,7 +65,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Demo
 
-[Heroku]()
+[Heroku](https://techblog-bambang.herokuapp.com/)
 
 ## Credits
 
@@ -81,7 +81,6 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ---
 ## Badges
 ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 ## Features
 
