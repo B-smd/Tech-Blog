@@ -65,7 +65,18 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Demo
 
-[Heroku](https://techblog-bambang.herokuapp.com/)
+![tech_blog](./Demo/ScreenShot.png)
+![tech_blog](./Demo/ScreenShot1.png)
+![tech_blog](./Demo/ScreenShot2.png)
+![tech_blog](./Demo/ScreenShot3.png)
+![tech_blog](./Demo/ScreenShot4.png)
+![tech_blog](./Demo/ScreenShot5.png)
+![tech_blog](./Demo/ScreenShot6.png)
+![tech_blog](./Demo/ScreenShot7.png)
+![tech_blog](./Demo/ScreenShot8.png)
+
+
+[Heroku link](https://techblog-bambang.herokuapp.com/)
 
 ## Credits
 
